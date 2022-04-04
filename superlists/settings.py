@@ -25,7 +25,10 @@ SECRET_KEY = 'django-insecure-bfv)2+9%q+=)vjnaa5v67jn_$@7$f=r6jr92o6rg7r0e@irztx
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'superlists-staging.raphaelnogueira.dev',
+    'superlists.raphaelnogueira.dev'
+]
 
 
 # Application definition
